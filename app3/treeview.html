@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="assets/css/vendor.bundle.base.css">
     <!-- endinject -->
     <!-- Plugin css for this page -->
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">
+<link rel="stylesheet" href="assets/css/jstree/style.css">
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
@@ -243,42 +242,20 @@
           <ul class="nav">
             <li class="nav-item nav-category">Main</li>
             <li class="nav-item">
-              <a class="nav-link" href="../../index.html">
+              <a class="nav-link" href="dashboard.html">
                 <span class="icon-bg"><i class="mdi mdi-cube menu-icon"></i></span>
                 <span class="menu-title">Dashboard</span>
               </a>
             </li>
+         
             <li class="nav-item">
-              <a class="nav-link" data-toggle="collapse" href="#page-layouts" aria-expanded="false" aria-controls="page-layouts">
-                <span class="icon-bg"> <i class="mdi mdi-apps menu-icon"></i> </span>
-                <span class="menu-title">Page Layouts</span>
-                <i class="menu-arrow"></i>
+              <a class="nav-link" href="sidebar-collapsed.html">
+                <span class="icon-bg"><i class="mdi mdi-widgets menu-icon"></i></span>
+                <span class="menu-title">Icon sidebar</span>
               </a>
-              <div class="collapse" id="page-layouts">
-                <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/layout/boxed-layout.html">Boxed</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/layout/rtl-layout.html">RTL</a></li>
-                </ul>
-              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="collapse" href="#sidebar-layouts" aria-expanded="false" aria-controls="sidebar-layouts">
-                <span class="icon-bg"><i class="mdi mdi-playlist-play menu-icon"></i></span>
-                <span class="menu-title">Sidebar Layouts</span>
-                <i class="menu-arrow"></i>
-              </a>
-              <div class="collapse" id="sidebar-layouts">
-                <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/layout/compact-menu.html">Compact menu</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/layout/sidebar-collapsed.html">Icon menu</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/layout/sidebar-hidden.html">Sidebar Hidden</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/layout/sidebar-hidden-overlay.html">Sidebar Overlay</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/layout/sidebar-fixed.html">Sidebar Fixed</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../../pages/samples/widgets.html">
+              <a class="nav-link" href="widgets.html">
                 <span class="icon-bg"><i class="mdi mdi-widgets menu-icon"></i></span>
                 <span class="menu-title">Widgets</span>
               </a>
@@ -292,17 +269,17 @@
               </a>
               <div class="collapse" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/accordions.html">Accordions</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">Buttons</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/badges.html">Badges</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/breadcrumbs.html">Breadcrumbs</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Dropdowns</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/modals.html">Modals</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/progress.html">Progress bar</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/pagination.html">Pagination</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/tabs.html">Tabs</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Typography</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/tooltips.html">Tooltip</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="accordions.html">Accordions</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="buttons.html">Buttons</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="badges.html">Badges</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="breadcrumbs.html">Breadcrumbs</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="dropdowns.html">Dropdowns</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="modals.html">Modals</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="progress.html">Progress bar</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="pagination.html">Pagination</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="tabs.html">Tabs</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="typography.html">Typography</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="tooltips.html">Tooltip</a></li>
                 </ul>
               </div>
             </li>
@@ -314,25 +291,24 @@
               </a>
               <div class="collapse" id="ui-advanced">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dragula.html">Dragula</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/clipboard.html">Clipboard</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/context-menu.html">Context menu</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/slider.html">Slider</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/colcade.html">Colcade</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/carousel.html">Carousel</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/loaders.html">Loaders</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/treeview.html">Tree View</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="dragula.html">Dragula</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="clipboard.html">Clipboard</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="context-menu.html">Context menu</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="slider.html">Slider</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="carousel.html">Carousel</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="loaders.html">Loaders</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="treeview.html">Tree View</a></li>
                 </ul>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../../pages/ui-features/popups.html">
+              <a class="nav-link" href="popups.html">
                 <span class="icon-bg"><i class="mdi mdi-forum menu-icon"></i></span>
                 <span class="menu-title">Popups</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../../pages/ui-features/notifications.html">
+              <a class="nav-link" href="notifications.html">
                 <span class="icon-bg"><i class="mdi mdi-bell-ring menu-icon"></i></span>
                 <span class="menu-title">Notifications</span>
               </a>
@@ -345,11 +321,10 @@
               </a>
               <div class="collapse" id="icons">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/icons/mdi.html">Material</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/icons/flag-icons.html">Flag icons</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/icons/font-awesome.html">Font Awesome</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/icons/simple-line-icon.html">Simple line icons</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/icons/themify.html">Themify icons</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="mdi.html">Material</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="font-awesome.html">Font Awesome</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="simple-icon.html">Simple line icons</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="themify.html">Themify icons</a></li>
                 </ul>
               </div>
             </li>
@@ -361,22 +336,22 @@
               </a>
               <div class="collapse" id="forms">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/forms/basic_elements.html">Form Elements</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/forms/advanced_elements.html">Advanced Forms</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/forms/validation.html">Validation</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/forms/wizard.html">Wizard</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="basic_elements.html">Form Elements</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="advanced_elements.html">Advanced Forms</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="validation.html">Validation</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="wizard.html">Wizard</a></li>
                 </ul>
               </div>
             </li>
             <li class="nav-item nav-category">Editors</li>
             <li class="nav-item">
-              <a class="nav-link" href="../../pages/forms/text_editor.html">
+              <a class="nav-link" href="text_editor.html">
                 <span class="icon-bg"><i class="mdi mdi-file-document menu-icon"></i></span>
                 <span class="menu-title">Text editors</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../../pages/forms/code_editor.html">
+              <a class="nav-link" href="code_editor.html">
                 <span class="icon-bg"><i class="mdi mdi-code-not-equal-variant menu-icon"></i></span>
                 <span class="menu-title">Code editors</span>
               </a>
@@ -390,14 +365,10 @@
               </a>
               <div class="collapse" id="charts">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/charts/chartjs.html">ChartJs</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/charts/morris.html">Morris</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/charts/flot-chart.html">Flot</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/charts/google-charts.html">Google charts</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/charts/sparkline.html">Sparkline js</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/charts/c3.html">C3 charts</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/charts/chartist.html">Chartist</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/charts/justGage.html">JustGage</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="chartjs.html">ChartJs</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="morris.html">Morris</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="google-charts.html">Google charts</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="c3.html">C3 charts</a></li>
                 </ul>
               </div>
             </li>
@@ -409,10 +380,9 @@
               </a>
               <div class="collapse" id="tables">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/tables/basic-table.html">Basic table</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/tables/data-table.html">Data table</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/tables/js-grid.html">Js-grid</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/tables/sortable-table.html">Sortable table</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="basic-table.html">Basic table</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="datatables.html">Data table</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="jsgrid.html">Js-grid</a></li>
                 </ul>
               </div>
             </li>
@@ -424,9 +394,7 @@
               </a>
               <div class="collapse" id="maps">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/maps/google-maps.html">Google Maps</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/maps/mapael.html">Mapael</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/maps/vector-map.html">Vector map</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="google-maps.html">Google Maps</a></li>
                 </ul>
               </div>
             </li>
@@ -439,28 +407,13 @@
               </a>
               <div class="collapse" id="auth">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/login.html"> Login </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/login-2.html"> Login 2 </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/mutli-level-login.html"> Multi step login </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/register.html"> Register </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/register-2.html"> Register 2 </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/lock-screen.html"> Lockscreen </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="login.html"> Login </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="register.html"> Register </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="lockscreen.html"> Lockscreen </a></li>
                 </ul>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="collapse" href="#error" aria-expanded="false" aria-controls="error">
-                <span class="icon-bg"><i class="mdi mdi-security menu-icon"></i></span>
-                <span class="menu-title">Error pages</span>
-                <i class="menu-arrow"></i>
-              </a>
-              <div class="collapse" id="error">
-                <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/error-404.html"> 404 </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/error-500.html"> 500 </a></li>
-                </ul>
-              </div>
-            </li>
+            
             <li class="nav-item">
               <a class="nav-link" data-toggle="collapse" href="#general-pages" aria-expanded="false" aria-controls="general-pages">
                 <span class="icon-bg"><i class="mdi mdi-medical-bag menu-icon"></i></span>
@@ -469,14 +422,14 @@
               </a>
               <div class="collapse" id="general-pages">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/blank-page.html"> Blank Page </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/profile.html"> Profile </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/faq.html"> FAQ </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/faq-2.html"> FAQ 2 </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/news-grid.html"> News grid </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/timeline.html"> Timeline </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/user-listing.html"> User listing </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/portfolio.html"> Portfolio </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="blank-page.html"> Blank Page </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="profile.html"> Profile </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="faq.html"> FAQ </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="faq2.html"> FAQ 2 </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="news.html"> News grid </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="timeline.html"> Timeline </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="userlist.html"> User listing </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="portfolio.html"> Portfolio </a></li>
                 </ul>
               </div>
             </li>
@@ -489,17 +442,17 @@
               </a>
               <div class="collapse" id="e-commerce">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/invoice.html"> Invoice </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/pricing-table.html"> Pricing Table </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/orders.html"> Orders </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/emailer.html"> Email template </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/product-catalogue.html"> Product catalogue </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/samples/project-list.html"> project list </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="invoice.html"> Invoice </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="pricing.html"> Pricing Table </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="orders.html"> Orders </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="email-template.html"> Email template </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="product.html"> Product catalogue </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="project.html"> project list </a></li>
                 </ul>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="kanban-board.html">
+              <a class="nav-link" href="kanban.html">
                 <span class="icon-bg"><i class="mdi mdi-tablet-dashboard menu-icon"></i></span>
                 <span class="menu-title">Kanban Board</span>
               </a>
@@ -517,7 +470,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="todo.html">
+              <a class="nav-link" href="todolist.html">
                 <span class="icon-bg"><i class="mdi mdi-playlist-edit menu-icon"></i></span>
                 <span class="menu-title">Todo list</span>
               </a>
@@ -588,8 +541,7 @@
         </nav>
         <!-- partial -->
 <!-- =============================================================================================================================================================== -->
-
-<div class="main-panel">
+        <div class="main-panel">
           <div class="content-wrapper">
             <div class="page-header">
               <h3 class="page-title"> Tree View </h3>
@@ -607,7 +559,31 @@
                     <div class="card">
                       <div class="card-body">
                         <h4 class="card-title">Default Tree Style</h4>
-                        <div id="jstree_sample_1" class="jstree jstree-1 jstree-default" role="tree" aria-multiselectable="true" tabindex="0" aria-activedescendant="j1_1" aria-busy="false"><ul class="jstree-container-ul jstree-children" role="group"><li role="treeitem" aria-selected="false" aria-level="1" aria-labelledby="j1_1_anchor" aria-expanded="true" id="j1_1" class="jstree-node  jstree-open jstree-last"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j1_1_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>Connect plus </a><ul role="group" class="jstree-children"><li role="treeitem" aria-selected="false" aria-level="2" aria-labelledby="j1_2_anchor" aria-expanded="false" id="j1_2" class="jstree-node  jstree-closed"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j1_2_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>Jquery </a></li><li role="treeitem" data-jstree="{&quot;icon&quot;:&quot;../../../assets/images/file-icons/extension/git-file.png&quot;}" aria-selected="false" aria-level="2" aria-labelledby="j1_14_anchor" id="j1_14" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j1_14_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/git-file.png&quot;); background-position: center center; background-size: auto;"></i> .gitignore</a></li><li role="treeitem" data-jstree="{&quot;icon&quot;:&quot;../../../assets/images/file-icons/extension/corrupted-file.png&quot;}" aria-selected="false" aria-level="2" aria-labelledby="j1_15_anchor" id="j1_15" class="jstree-node  jstree-leaf jstree-last"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j1_15_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/corrupted-file.png&quot;); background-position: center center; background-size: auto;"></i> CHANGELOG.md</a></li></ul></li></ul></div>
+                        <div id="jstree_sample_1">
+                          <ul>
+                            <li class="jstree-open">Connect plus <ul>
+                                <li>Jquery <ul>
+                                    <li>gulp-tasks</li>
+                                    <li>documentation</li>
+                                    <li>template <ul>
+                                        <li> assets </li>
+                                        <li>demo_1</li>
+                                        <li>demo_2</li>
+                                        <li>demo_3</li>
+                                        <li>demo_4</li>
+                                        <li data-jstree='{"icon":"assets/img/file-icons/html.png"}'> index.html</li>
+                                        <li data-jstree='{"icon":"assets/img/file-icons/html.png"}'> gulpfile.js </li>
+                                        <li data-jstree='{"icon":"assets/img/file-icons/html.png"}'> package.json </li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li data-jstree='{"icon":"assets/img/file-icons/git-file.png"}'> .gitignore</li>
+                                <li data-jstree='{"icon":"assets/img/file-icons/corrupted-file.png"}'> CHANGELOG.md</li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -615,7 +591,31 @@
                     <div class="card">
                       <div class="card-body">
                         <h4 class="card-title">Context Menu View</h4>
-                        <div id="jstree_sample_3" class="jstree jstree-3 jstree-default" role="tree" aria-multiselectable="true" tabindex="0" aria-activedescendant="j3_1" aria-busy="false"><ul class="jstree-container-ul jstree-children jstree-contextmenu" role="group"><li role="treeitem" aria-selected="false" aria-level="1" aria-labelledby="j3_1_anchor" aria-expanded="true" id="j3_1" class="jstree-node  jstree-open jstree-last"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j3_1_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>Connect plus </a><ul role="group" class="jstree-children"><li role="treeitem" aria-selected="false" aria-level="2" aria-labelledby="j3_2_anchor" aria-expanded="true" id="j3_2" class="jstree-node  jstree-open"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j3_2_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>Jquery </a><ul role="group" class="jstree-children"><li role="treeitem" aria-selected="false" aria-level="3" aria-labelledby="j3_3_anchor" id="j3_3" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j3_3_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>gulp-tasks</a></li><li role="treeitem" aria-selected="false" aria-level="3" aria-labelledby="j3_4_anchor" id="j3_4" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j3_4_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>documentation</a></li><li role="treeitem" aria-selected="false" aria-level="3" aria-labelledby="j3_5_anchor" aria-expanded="true" id="j3_5" class="jstree-node  jstree-open jstree-last"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j3_5_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>template </a><ul role="group" class="jstree-children"><li role="treeitem" aria-selected="false" aria-level="4" aria-labelledby="j3_6_anchor" id="j3_6" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j3_6_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i> assets </a></li><li role="treeitem" aria-selected="false" aria-level="4" aria-labelledby="j3_7_anchor" id="j3_7" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j3_7_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>demo_1</a></li><li role="treeitem" aria-selected="false" aria-level="4" aria-labelledby="j3_8_anchor" id="j3_8" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j3_8_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>demo_2</a></li><li role="treeitem" aria-selected="false" aria-level="4" aria-labelledby="j3_9_anchor" id="j3_9" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j3_9_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>demo_3</a></li><li role="treeitem" aria-selected="false" aria-level="4" aria-labelledby="j3_10_anchor" id="j3_10" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j3_10_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>demo_4</a></li><li role="treeitem" data-jstree="{&quot;icon&quot;:&quot;../../../assets/images/file-icons/extension/html.png&quot;}" aria-selected="false" aria-level="4" aria-labelledby="j3_11_anchor" id="j3_11" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j3_11_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/html.png&quot;); background-position: center center; background-size: auto;"></i> index.html</a></li><li role="treeitem" data-jstree="{&quot;icon&quot;:&quot;../../../assets/images/file-icons/extension/html.png&quot;}" aria-selected="false" aria-level="4" aria-labelledby="j3_12_anchor" id="j3_12" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j3_12_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/html.png&quot;); background-position: center center; background-size: auto;"></i> gulpfile.js </a></li><li role="treeitem" data-jstree="{&quot;icon&quot;:&quot;../../../assets/images/file-icons/extension/html.png&quot;}" aria-selected="false" aria-level="4" aria-labelledby="j3_13_anchor" id="j3_13" class="jstree-node  jstree-leaf jstree-last"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j3_13_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/html.png&quot;); background-position: center center; background-size: auto;"></i> package.json </a></li></ul></li></ul></li><li role="treeitem" data-jstree="{&quot;icon&quot;:&quot;../../../assets/images/file-icons/extension/git-file.png&quot;}" aria-selected="false" aria-level="2" aria-labelledby="j3_14_anchor" id="j3_14" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j3_14_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/git-file.png&quot;); background-position: center center; background-size: auto;"></i> .gitignore</a></li><li role="treeitem" data-jstree="{&quot;icon&quot;:&quot;../../../assets/images/file-icons/extension/corrupted-file.png&quot;}" aria-selected="false" aria-level="2" aria-labelledby="j3_15_anchor" id="j3_15" class="jstree-node  jstree-leaf jstree-last"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j3_15_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/corrupted-file.png&quot;); background-position: center center; background-size: auto;"></i> CHANGELOG.md</a></li></ul></li></ul></div>
+                        <div id="jstree_sample_3">
+                          <ul>
+                            <li class="jstree-open">Connect plus <ul>
+                                <li class="jstree-open">Jquery <ul>
+                                    <li>gulp-tasks</li>
+                                    <li>documentation</li>
+                                    <li class="jstree-open">template <ul>
+                                        <li> assets </li>
+                                        <li>demo_1</li>
+                                        <li>demo_2</li>
+                                        <li>demo_3</li>
+                                        <li>demo_4</li>
+                                        <li data-jstree='{"icon":"assets/img/file-icons/html.png"}'> index.html</li>
+                                        <li data-jstree='{"icon":"assets/img/file-icons/html.png"}'> gulpfile.js </li>
+                                        <li data-jstree='{"icon":"assets/img/file-icons/html.png"}'> package.json </li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li data-jstree='{"icon":"assets/img/file-icons/git-file.png"}'> .gitignore</li>
+                                <li data-jstree='{"icon":"assets/img/file-icons/corrupted-file.png"}'> CHANGELOG.md</li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -627,7 +627,31 @@
                     <div class="card">
                       <div class="card-body">
                         <h4 class="card-title">Checkbox Tree Style</h4>
-                        <div id="jstree_sample_2" class="jstree jstree-2 jstree-default jstree-checkbox-selection" role="tree" aria-multiselectable="true" tabindex="0" aria-activedescendant="j2_1" aria-busy="false"><ul class="jstree-container-ul jstree-children" role="group"><li role="treeitem" aria-selected="false" aria-level="1" aria-labelledby="j2_1_anchor" aria-expanded="true" id="j2_1" class="jstree-node  jstree-open jstree-last"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j2_1_anchor"><i class="jstree-icon jstree-checkbox" role="presentation"></i><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>Connect plus </a><ul role="group" class="jstree-children"><li role="treeitem" aria-selected="false" aria-level="2" aria-labelledby="j2_2_anchor" aria-expanded="true" id="j2_2" class="jstree-node  jstree-open"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j2_2_anchor"><i class="jstree-icon jstree-checkbox" role="presentation"></i><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>Jquery </a><ul role="group" class="jstree-children"><li role="treeitem" aria-selected="false" aria-level="3" aria-labelledby="j2_3_anchor" id="j2_3" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j2_3_anchor"><i class="jstree-icon jstree-checkbox" role="presentation"></i><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>gulp-tasks</a></li><li role="treeitem" aria-selected="false" aria-level="3" aria-labelledby="j2_4_anchor" id="j2_4" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j2_4_anchor"><i class="jstree-icon jstree-checkbox" role="presentation"></i><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>documentation</a></li><li role="treeitem" aria-selected="false" aria-level="3" aria-labelledby="j2_5_anchor" aria-expanded="true" id="j2_5" class="jstree-node  jstree-open jstree-last"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j2_5_anchor"><i class="jstree-icon jstree-checkbox" role="presentation"></i><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>template </a><ul role="group" class="jstree-children"><li role="treeitem" aria-selected="false" aria-level="4" aria-labelledby="j2_6_anchor" id="j2_6" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j2_6_anchor"><i class="jstree-icon jstree-checkbox" role="presentation"></i><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i> assets </a></li><li role="treeitem" aria-selected="false" aria-level="4" aria-labelledby="j2_7_anchor" id="j2_7" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j2_7_anchor"><i class="jstree-icon jstree-checkbox" role="presentation"></i><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>demo_1</a></li><li role="treeitem" aria-selected="false" aria-level="4" aria-labelledby="j2_8_anchor" id="j2_8" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j2_8_anchor"><i class="jstree-icon jstree-checkbox" role="presentation"></i><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>demo_2</a></li><li role="treeitem" aria-selected="false" aria-level="4" aria-labelledby="j2_9_anchor" id="j2_9" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j2_9_anchor"><i class="jstree-icon jstree-checkbox" role="presentation"></i><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>demo_3</a></li><li role="treeitem" aria-selected="false" aria-level="4" aria-labelledby="j2_10_anchor" id="j2_10" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j2_10_anchor"><i class="jstree-icon jstree-checkbox" role="presentation"></i><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>demo_4</a></li><li role="treeitem" data-jstree="{&quot;icon&quot;:&quot;../../../assets/images/file-icons/extension/html.png&quot;}" aria-selected="false" aria-level="4" aria-labelledby="j2_11_anchor" id="j2_11" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j2_11_anchor"><i class="jstree-icon jstree-checkbox" role="presentation"></i><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/html.png&quot;); background-position: center center; background-size: auto;"></i> index.html</a></li><li role="treeitem" data-jstree="{&quot;icon&quot;:&quot;../../../assets/images/file-icons/extension/html.png&quot;}" aria-selected="false" aria-level="4" aria-labelledby="j2_12_anchor" id="j2_12" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j2_12_anchor"><i class="jstree-icon jstree-checkbox" role="presentation"></i><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/html.png&quot;); background-position: center center; background-size: auto;"></i> gulpfile.js </a></li><li role="treeitem" data-jstree="{&quot;icon&quot;:&quot;../../../assets/images/file-icons/extension/html.png&quot;}" aria-selected="false" aria-level="4" aria-labelledby="j2_13_anchor" id="j2_13" class="jstree-node  jstree-leaf jstree-last"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j2_13_anchor"><i class="jstree-icon jstree-checkbox" role="presentation"></i><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/html.png&quot;); background-position: center center; background-size: auto;"></i> package.json </a></li></ul></li></ul></li><li role="treeitem" data-jstree="{&quot;icon&quot;:&quot;../../../assets/images/file-icons/extension/git-file.png&quot;}" aria-selected="false" aria-level="2" aria-labelledby="j2_14_anchor" id="j2_14" class="jstree-node  jstree-leaf"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j2_14_anchor"><i class="jstree-icon jstree-checkbox" role="presentation"></i><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/git-file.png&quot;); background-position: center center; background-size: auto;"></i> .gitignore</a></li><li role="treeitem" data-jstree="{&quot;icon&quot;:&quot;../../../assets/images/file-icons/extension/corrupted-file.png&quot;}" aria-selected="false" aria-level="2" aria-labelledby="j2_15_anchor" id="j2_15" class="jstree-node  jstree-leaf jstree-last"><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j2_15_anchor"><i class="jstree-icon jstree-checkbox" role="presentation"></i><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/corrupted-file.png&quot;); background-position: center center; background-size: auto;"></i> CHANGELOG.md</a></li></ul></li></ul></div>
+                        <div id="jstree_sample_2">
+                          <ul>
+                            <li class="jstree-open">Connect plus <ul>
+                                <li class="jstree-open">Jquery <ul>
+                                    <li>gulp-tasks</li>
+                                    <li>documentation</li>
+                                    <li class="jstree-open">template <ul>
+                                        <li> assets </li>
+                                        <li>demo_1</li>
+                                        <li>demo_2</li>
+                                        <li>demo_3</li>
+                                        <li>demo_4</li>
+                                        <li data-jstree='{"icon":"assets/img/file-icons/html.png"}'> index.html</li>
+                                        <li data-jstree='{"icon":"assets/img/file-icons/html.png"}'> gulpfile.js </li>
+                                        <li data-jstree='{"icon":"assets/img/file-icons/html.png"}'> package.json </li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li data-jstree='{"icon":"assets/img/file-icons/git-file.png"}'> .gitignore</li>
+                                <li data-jstree='{"icon":"assets/img/file-icons/corrupted-file.png"}'> CHANGELOG.md</li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -635,7 +659,31 @@
                     <div class="card">
                       <div class="card-body">
                         <h4 class="card-title">Drag n Drop Enabled</h4>
-                        <div id="jstree_sample_4" class="jstree jstree-4 jstree-default" role="tree" aria-multiselectable="true" tabindex="0" aria-activedescendant="j4_1" aria-busy="false"><ul class="jstree-container-ul jstree-children jstree-wholerow-ul jstree-no-dots" role="group"><li role="treeitem" aria-selected="false" aria-level="1" aria-labelledby="j4_1_anchor" aria-expanded="true" id="j4_1" class="jstree-node  jstree-open jstree-last"><div unselectable="on" role="presentation" class="jstree-wholerow">&nbsp;</div><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j4_1_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>Connect plus </a><ul role="group" class="jstree-children"><li role="treeitem" aria-selected="false" aria-level="2" aria-labelledby="j4_2_anchor" aria-expanded="true" id="j4_2" class="jstree-node  jstree-open"><div unselectable="on" role="presentation" class="jstree-wholerow">&nbsp;</div><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j4_2_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>Jquery </a><ul role="group" class="jstree-children"><li role="treeitem" aria-selected="false" aria-level="3" aria-labelledby="j4_3_anchor" id="j4_3" class="jstree-node  jstree-leaf"><div unselectable="on" role="presentation" class="jstree-wholerow">&nbsp;</div><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j4_3_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>gulp-tasks</a></li><li role="treeitem" aria-selected="false" aria-level="3" aria-labelledby="j4_4_anchor" id="j4_4" class="jstree-node  jstree-leaf"><div unselectable="on" role="presentation" class="jstree-wholerow">&nbsp;</div><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j4_4_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>documentation</a></li><li role="treeitem" aria-selected="false" aria-level="3" aria-labelledby="j4_5_anchor" aria-expanded="true" id="j4_5" class="jstree-node  jstree-open jstree-last"><div unselectable="on" role="presentation" class="jstree-wholerow">&nbsp;</div><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j4_5_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>template </a><ul role="group" class="jstree-children"><li role="treeitem" aria-selected="false" aria-level="4" aria-labelledby="j4_6_anchor" id="j4_6" class="jstree-node  jstree-leaf"><div unselectable="on" role="presentation" class="jstree-wholerow">&nbsp;</div><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j4_6_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i> assets </a></li><li role="treeitem" aria-selected="false" aria-level="4" aria-labelledby="j4_7_anchor" id="j4_7" class="jstree-node  jstree-leaf"><div unselectable="on" role="presentation" class="jstree-wholerow">&nbsp;</div><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j4_7_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>demo_1</a></li><li role="treeitem" aria-selected="false" aria-level="4" aria-labelledby="j4_8_anchor" id="j4_8" class="jstree-node  jstree-leaf"><div unselectable="on" role="presentation" class="jstree-wholerow">&nbsp;</div><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j4_8_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>demo_2</a></li><li role="treeitem" aria-selected="false" aria-level="4" aria-labelledby="j4_9_anchor" id="j4_9" class="jstree-node  jstree-leaf"><div unselectable="on" role="presentation" class="jstree-wholerow">&nbsp;</div><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j4_9_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>demo_3</a></li><li role="treeitem" aria-selected="false" aria-level="4" aria-labelledby="j4_10_anchor" id="j4_10" class="jstree-node  jstree-leaf"><div unselectable="on" role="presentation" class="jstree-wholerow">&nbsp;</div><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j4_10_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/folder.png&quot;); background-position: center center; background-size: auto;"></i>demo_4</a></li><li role="treeitem" data-jstree="{&quot;icon&quot;:&quot;../../../assets/images/file-icons/extension/html.png&quot;}" aria-selected="false" aria-level="4" aria-labelledby="j4_11_anchor" id="j4_11" class="jstree-node  jstree-leaf"><div unselectable="on" role="presentation" class="jstree-wholerow">&nbsp;</div><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j4_11_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/html.png&quot;); background-position: center center; background-size: auto;"></i> index.html</a></li><li role="treeitem" data-jstree="{&quot;icon&quot;:&quot;../../../assets/images/file-icons/extension/html.png&quot;}" aria-selected="false" aria-level="4" aria-labelledby="j4_12_anchor" id="j4_12" class="jstree-node  jstree-leaf"><div unselectable="on" role="presentation" class="jstree-wholerow">&nbsp;</div><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j4_12_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/html.png&quot;); background-position: center center; background-size: auto;"></i> gulpfile.js </a></li><li role="treeitem" data-jstree="{&quot;icon&quot;:&quot;../../../assets/images/file-icons/extension/html.png&quot;}" aria-selected="false" aria-level="4" aria-labelledby="j4_13_anchor" id="j4_13" class="jstree-node  jstree-leaf jstree-last"><div unselectable="on" role="presentation" class="jstree-wholerow">&nbsp;</div><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j4_13_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/html.png&quot;); background-position: center center; background-size: auto;"></i> package.json </a></li></ul></li></ul></li><li role="treeitem" data-jstree="{&quot;icon&quot;:&quot;../../../assets/images/file-icons/extension/git-file.png&quot;}" aria-selected="false" aria-level="2" aria-labelledby="j4_14_anchor" id="j4_14" class="jstree-node  jstree-leaf"><div unselectable="on" role="presentation" class="jstree-wholerow">&nbsp;</div><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j4_14_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/git-file.png&quot;); background-position: center center; background-size: auto;"></i> .gitignore</a></li><li role="treeitem" data-jstree="{&quot;icon&quot;:&quot;../../../assets/images/file-icons/extension/corrupted-file.png&quot;}" aria-selected="false" aria-level="2" aria-labelledby="j4_15_anchor" id="j4_15" class="jstree-node  jstree-leaf jstree-last"><div unselectable="on" role="presentation" class="jstree-wholerow">&nbsp;</div><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor" href="#" tabindex="-1" id="j4_15_anchor"><i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" style="background-image: url(&quot;../../../assets/images/file-icons/extension/corrupted-file.png&quot;); background-position: center center; background-size: auto;"></i> CHANGELOG.md</a></li></ul></li></ul></div>
+                        <div id="jstree_sample_4">
+                          <ul>
+                            <li class="jstree-open">Connect plus <ul>
+                                <li class="jstree-open">Jquery <ul>
+                                    <li>gulp-tasks</li>
+                                    <li>documentation</li>
+                                    <li class="jstree-open">template <ul>
+                                        <li> assets </li>
+                                        <li>demo_1</li>
+                                        <li>demo_2</li>
+                                        <li>demo_3</li>
+                                        <li>demo_4</li>
+                                        <li data-jstree='{"icon":"assets/img/file-icons/html.png"}'> index.html</li>
+                                        <li data-jstree='{"icon":"assets/img/file-icons/html.png"}'> gulpfile.js </li>
+                                        <li data-jstree='{"icon":"assets/img/file-icons/html.png"}'> package.json </li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li data-jstree='{"icon":"assets/img/file-icons/git-file.png"}'> .gitignore</li>
+                                <li data-jstree='{"icon":"assets/img/file-icons/corrupted-file.png"}'> CHANGELOG.md</li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -649,13 +697,12 @@
             <div class="footer-inner-wraper">
               <div class="d-sm-flex justify-content-center justify-content-sm-between">
                 <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2018 <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap Dash</a>. All rights reserved.</span>
-                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted &amp; made with <i class="mdi mdi-heart text-danger"></i></span>
+                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="mdi mdi-heart text-danger"></i></span>
               </div>
             </div>
           </footer>
           <!-- partial -->
         </div>
-<!-- =================================================================================================================================================================-->
         <!-- main-panel ends -->
       </div>
       <!-- page-body-wrapper ends -->
@@ -664,10 +711,7 @@
     <!-- plugins:js -->
     <script src="assets/vendors/vendor.bundle.base.js"></script>
     <!-- endinject -->
-    <!-- Plugin js for this page -->
-    <script src="assets/vendors/Chart.min.js"></script>
-    <script src="assets/vendors/circle-progress.min.js"></script>
-    <!-- End plugin js for this page -->
+
     <!-- inject:js -->
     <script src="assets/js/off-canvas.js"></script>
     <script src="assets/js/hoverable-collapse.js"></script>
@@ -675,8 +719,11 @@
     <script src="assets/js/settings.js"></script>
     <script src="assets/js/todolist.js"></script>
     <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="assets/vendors/jstree.min.js"></script>
+    <!-- End plugin js for this page -->
     <!-- Custom js for this page -->
-    <script src="assets/js/dashboard.js"></script>
+    <script src="assets/js/js-tree.js"></script>
     <!-- End custom js for this page -->
   </body>
 </html>
