@@ -20,6 +20,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- End layout styles -->
     <link rel="shortcut icon" href="assets/img/favicon.png" />
+    <style type="text/css">
+      .content-wrapper {
+    background: #060617;
+  }
+    </style>
   </head>
   <body class="sidebar-fixed">
     <div class="container-scroller">
